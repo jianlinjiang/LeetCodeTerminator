@@ -27,3 +27,4 @@
 ## LeetCode 周赛
 - [192周赛](LeetCode周赛/192周赛.md)
 - [193周赛](LeetCode周赛/193周赛.md)
+- [194周赛](LeetCode周赛/194周赛.md)
