@@ -10,7 +10,7 @@ void insert(char str[]){
     int p = 0;
     for(int i = 0; str[i] ; i++){
         int u = str[i] - 'a';
-        if(!trie[p][u]) trie[p][u] ++idx;
+        if(!trie[p][u]) trie[p][u]=++idx;
         p = trie[p][u];
     }
     cnt[p]++;//表示出现的次数
